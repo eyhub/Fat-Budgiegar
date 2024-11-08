@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="math_quiz",
-    version="0.01",
+    version="0.1",
     description="math quiz game package",
-    long_description=open("README.md").read(),
+    long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     author="eyhub",
     author_email="ozgurakbulut2@gmail.com",
@@ -15,8 +15,8 @@ setup(
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires=">=3.6",
 )
